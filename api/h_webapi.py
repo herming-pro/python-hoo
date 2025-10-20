@@ -8,7 +8,7 @@ import requests.packages.urllib3
 requests.packages.urllib3.disable_warnings()
 class main():
     def init(self):
-        self.__headers = {'Authorization': 'Basic YWRtaW46bm1paWk='}
+        self.__headers = {'Authorization': 'Basic XXXXXX='}
         self.__url     = "https://192.168.10.26"
         self.__path    = "/api/config/test/get"
         self.__timeout = 10
